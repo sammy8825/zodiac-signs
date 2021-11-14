@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.links{
+    position: fixed;
+    bottom: 20%;
+    transform: translateY(-50%);
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+   
+    opacity: 85%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.links h2{
+    width: 33.33%;
+    text-align: center;
+}
+
+.links h2 a{
+    color: rgb(4, 184, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+}
